@@ -31,7 +31,7 @@
     npm install ejs
 
     // inside the server
-    app.set('view engine', 'ejs’);
+    app.set('view engine', 'ejs');
 
     // create index.ejs inside views folder
     res.render('index',{});
